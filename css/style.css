@@ -19,7 +19,6 @@ body {
     background-color: var(--tint-color);
     margin: 0;
     padding: 0;
-    border: 1px solid;
 }
 
 header {
@@ -150,19 +149,92 @@ button {
 
 #dev-skills {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background: var(--white-color);
-    height: 2213px;
+}
+
+#services {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+#dev-skills h1 {
+    font-size: 2rem;
+    margin-top: 142px;
+}
+
+#exp-span {
+    text-align: left;
+    width: 1100px;
+    margin-top: 85px;
+}
+
+.service {
+    width: 371.825px;
+    height: 321px;
+    border-radius: 20px;
+    background: var(--tint-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service p {
+    font-weight: 700;
+    width: 80%;
+}
+
+#experience {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 117px;
+    width: 80%;
+    margin-top: 85px;
+    margin-bottom: 180px;
 }
 
 #done {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     background: var(--red-color);
+    color: var(--tint-color);
     height: 1435px;
 }
+
+#done h1 {
+    font-size: 2rem;
+    margin-top: 142px;
+}
+
+#projects-done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+    gap: 57px;
+}
+
+.project-done{
+    padding: 142px 121px;
+    border-radius: 16px;
+    background:var(--tint-color);
+}
+
+.filled-btn {
+   margin-top: 122px;
+}
+
 
 #testimonials {
     height: 1424px;
@@ -175,6 +247,7 @@ button {
     background: var(--red-color);
     flex-shrink: 0;
 }
+
 footer {
     display: flex;
     justify-content: center;
