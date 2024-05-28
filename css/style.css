@@ -155,3 +155,31 @@ button {
     background: var(--white-color);
     height: 2213px;
 }
+
+#done {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--red-color);
+    height: 1435px;
+}
+
+#testimonials {
+    height: 1424px;
+    background: var(--white-color);
+    flex-shrink: 0;
+}
+
+#collaboration {
+    height: 880px;
+    background: var(--red-color);
+    flex-shrink: 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: var(--tint-color);
+    color: var(--red-color);
+}
