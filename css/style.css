@@ -305,11 +305,11 @@ button {
     align-items: center;
     background: var(--red-color);
     color: var(--tint-color);
-    height: 880px;
 }
 
 #collaboration h1 {
     font-size: 3.9rem;
+    margin-top: 142px;
 }
 
 #collaboration p {
