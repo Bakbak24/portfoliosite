@@ -1,0 +1,157 @@
+:root {
+    --red-color: #E43D11;
+    --tint-color: #ECE9E2;
+    --white-color: #F1F1FB;
+    --btn-padding: 15px 50px;
+    --btn-radius: 26px;
+    --fs-normal: 16px;
+}
+
+html {
+    font-size: var(--fs-normal);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--red-color);
+    background-color: var(--tint-color);
+    margin: 0;
+    padding: 0;
+    border: 1px solid;
+}
+
+header {
+    padding: 13px 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#left {
+    width: 50%;
+}
+
+#left h1 {
+    font-size: 1.5rem;
+    width: 100px;
+}
+
+#left a {
+    display: inline-block;
+}
+
+#right {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--red-color);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--red-color);
+    position: relative;
+    padding-bottom: 2px;
+}
+
+nav ul li:nth-child(1) a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--red-color);
+    margin-bottom: -2.5px;
+}
+
+#home-welcoming {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 789px;
+    background-color: var(--tint-color);
+}
+
+#welcoming-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 120px;
+}
+
+#welcoming-content span {
+    font-size: 1.2rem;
+    margin-bottom: -20px;
+}
+
+#welcoming-content h1 {
+    font-size: 4.6rem;
+    line-height: 1.1;
+    width: 620px;
+    margin-bottom: 72px;
+}
+
+#welcoming-content button {
+    margin-bottom: 55px;
+}
+
+button {
+    padding: var(--btn-padding);
+    background-color: var(--tint-color);
+    color: var(--red-color);
+    border: 1px solid;
+    border-radius: var(--btn-radius);
+    font-size: 1.2rem;
+    width: 221px;
+    cursor: pointer;
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.links {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.links img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dev-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white-color);
+    height: 2213px;
+}
