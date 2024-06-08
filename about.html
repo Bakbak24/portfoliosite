@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        nav ul li:nth-child(1) a::after {
+            width: 0%;
+        }
+
+        nav ul li:nth-child(2) a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background-color: var(--red-color);
+            margin-bottom: -2.5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="left">
+                <a href="index.html">
+                    <h1>Ray.dev</h1>
+                </a>
+            </div>
+            <div id="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <div id="content">
+                <div id="details">
+                    <h2>Web Dev & UI/UX Designer in Antwerp</h2>
+                    <p>Hello, I'm Rayen Chebbai, a front-end developer and UI/UX designer currently studying at Thomas More
+                        University of Applied Sciences in Mechelen. With a degree in computer science from Atheneum Boom and
+                        four years of experience in web development, I combine technical know-how with a passion for design
+                        thinking. When I'm not behind the screen, you can find me on the basketball court or enjoying time with
+                        my family. I'm always seeking new challenges and opportunities to grow. Feel free to get in touch!</p>
+                    <button class="filled-btn about-btn">View Resume</button>
+                </div>
+                <div id="profile-image">
+                    <!-- <img src="images/profile-image.jpg" alt="profile image"> -->
+                </div>
+            </div>
+        </section>
+        <section id="collaboration">
+            <h1>Eager to Collaborate?</h1>
+            <p>Don't hesitate to get in touch. If you're in search of a proficient front end developer to bring your
+                vision to life, I'm just an email away!</p>
+            <button class="filled-btn">Get In Touch</button>
+        </section>
+    </main>
+    <footer>
+        <b>Ray.dev</b>
+        <p style="text-align: center; margin-bottom: 83px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br> Ut et massa mi. Aliquam in hendrerit urna.
+        </p>
+        <div id="footer-content">
+            <div class="footer-box">
+                <h2>Social Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+                </p>
+                <div id="social-media-links">
+                    <div class="links"><img src="images/group-3.svg" alt="behance"></div>
+                    <div class="links"><img src="images/icon.svg" alt="linkedin"></div>
+                    <div class="links"><img src="images/in.svg" alt="instagram"></div>
+                    <div class="links"><img src="images/twit.svg" alt="twitter"></div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Links</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h2>Extra Links</h2>
+                <ul>
+                    <li>Services</li>
+                    <li>Experience</li>
+                    <li>What I've Done</li>
+                    <li>Testimonials</li>
+                    <li>Collaboration</li>
+                </ul>
+            </div>
+        </div>
+        <p>© 2024 Rayen Chebbai. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

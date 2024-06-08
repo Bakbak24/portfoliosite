@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        nav ul li:nth-child(1) a::after {
+            width: 0%;
+        }
+
+        nav ul li:nth-child(4) a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background-color: var(--red-color);
+            margin-bottom: -2.5px;
+        }
+
+        footer {
+            background: var(--red-color);
+            color: var(--white-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="left">
+                <a href="index.html">
+                    <h1>Ray.dev</h1>
+                </a>
+            </div>
+            <div id="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 style="text-align: center;">Get In Touch</h1>
+        <section id="contact-form">
+            <form action="" method="POST">
+                <div class="name-email-group">
+                    <div class="group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="Message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                </div>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <b>Ray.dev</b>
+        <p style="text-align: center; margin-bottom: 83px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br> Ut et massa mi. Aliquam in hendrerit urna.
+        </p>
+        <div id="footer-content">
+            <div class="footer-box">
+                <h2>Social Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
+                </p>
+                <div id="social-media-links">
+                    <div class="links"><img src="images/be-wh.svg" alt="behance"></div>
+                    <div class="links"><img src="images/ins-wh.svg" alt="linkedin"></div>
+                    <div class="links"><img src="images/in-wh.svg" alt="instagram"></div>
+                    <div class="links"><img src="images/twit-wh.svg" alt="twitter"></div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Links</h2>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h2>Extra Links</h2>
+                <ul>
+                    <li>Services</li>
+                    <li>Experience</li>
+                    <li>What I've Done</li>
+                    <li>Testimonials</li>
+                    <li>Collaboration</li>
+                </ul>
+            </div>
+        </div>
+        <p>© 2024 Rayen Chebbai. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
