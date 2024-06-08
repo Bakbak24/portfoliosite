@@ -452,8 +452,10 @@ button {
 }
 
 .service {
-    width: 371.825px;
-    height: 321px;
+    width: 391.825px;
+    height: 341px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
     background: var(--tint-color);
     display: flex;
