@@ -261,7 +261,7 @@ textarea {
 }
 
 #about-me #details {
-    width: 45%;
+    width: 55%;
 }
 
 #about-me #details h2 {
@@ -277,9 +277,49 @@ textarea {
     width: 404px;
     height: 451px;
     background: var(--white-color);
+    margin-right: 80px;
     border-radius: 10%;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 1000px) {
+    #about-me #content {
+        gap: 100px;
+        margin-left: 120px;
+        margin-bottom: 112px;
+        margin-top: 112px;
+    }
+    
+    #about-me #details {
+        width: 75%;
+    }
+
+    #about-me #profile-image {
+        margin-right: 90px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #about-me #content {
+        margin-left: 5%;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    #about-me #details {
+        width: 100%;
+        max-width: 700px;
+        margin-bottom: 20px;
+    }
+
+    #about-me #profile-image {
+        width: 100%;
+        max-width: 700px;
+        margin-right: 0;
+    }
+}
+
 
 #welcoming-content {
     width: 50%;
@@ -502,6 +542,7 @@ button {
 }
 
 #collaboration h1 {
+    text-align: center;
     font-size: 3.9rem;
     margin-top: 142px;
 }
@@ -511,7 +552,25 @@ button {
     text-align: center;
     width: 550px;
 }
+@media only screen and (max-width:580px){
 
+    #collaboration h1 {
+        font-size: 3.3rem;
+    }
+
+    #collaboration p {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 350px;
+    }
+
+}
+
+@media only screen and (max-width:400px){
+    #collaboration p {
+        width: 300px;
+    }
+}
 footer {
     display: flex;
     flex-direction: column;
