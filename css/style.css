@@ -97,6 +97,7 @@ nav ul li:nth-child(1) a::after {
     justify-content: center;
     align-items: center;
     background-color: var(--tint-color);
+    height: 789px;
 }
 
 form{
@@ -126,6 +127,116 @@ form input[type="submit"] {
 .group{
     display: flex;
     flex-direction: column;
+}
+
+.group label {
+    font-weight: 600;
+}
+
+.group input {
+    padding: 17px;
+    border-radius: 8px;
+    width: 313px;
+    border: none;
+}
+
+.message-group {
+    width: 680px;
+}
+
+.message-group label {
+    font-weight: 600;
+}
+
+textarea {
+    padding: 17px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    resize: none;
+}
+
+@media only screen and (max-width:715px){
+    #contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--tint-color);
+        height: 789px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    form input[type="submit"] {
+        padding: var(--btn-padding);
+        background-color: var(--red-color);
+        color: var(--white-color);
+        border: 1px solid;
+        border-radius: var(--btn-radius);
+        font-size: 1.2rem;
+        width: 221px;
+    }
+    
+    .name-email-group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .group{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .group label {
+        font-weight: 600;
+    }
+    
+    .group input {
+        padding: 17px;
+        border-radius: 8px;
+        width: 313px;
+        border: none;
+    }
+
+    .message-group {
+        width: 345px;
+    }
+    
+    textarea {
+        padding: 17px;
+        border-radius: 8px;
+        width: 90%;
+        border: none;
+        resize: none;
+    }
+}
+
+@media only screen and (max-width:405px){
+    .group input {
+        padding: 17px;
+        border-radius: 8px;
+        width: 290px;
+        border: none;
+    }
+
+    .message-group {
+        width: 325px;
+    }
+}
+#sub-btn{
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #project-h1{
