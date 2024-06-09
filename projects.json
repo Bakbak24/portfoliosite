@@ -6,18 +6,15 @@
             "phases": [
                 {
                     "title": "Film Research",
-                    "description": "De film volgt Dom Cobb, een ervaren dief die gespecialiseerd is in het stelen van waardevolle informatie uit de diepste lagen van het menselijk onderbewustzijn. Wat deze film zo uniek maakt, is de manier waarop het de complexiteit van dromen en realiteit verkent.",
-                    "image": "images/film-research.jpg"
+                    "description": "De film volgt Dom Cobb, een ervaren dief die gespecialiseerd is in het stelen van waardevolle informatie uit de diepste lagen van het menselijk onderbewustzijn. Wat deze film zo uniek maakt, is de manier waarop het de complexiteit van dromen en realiteit verkent."
                 },
                 {
                     "title": "Regisseur Research - Christopher Nolan",
-                    "description": "Christopher Nolan, geboren op 30 juli 1970 in Londen, is een regisseur die bekend staat om zijn diepgaande en intrigerende films. Zijn opvallende werken, zoals 'Memento', 'The Prestige' en 'Inception', hebben hem wereldwijde erkenning opgeleverd.",
-                    "image": "images/nolan-research.jpg"
+                    "description": "Christopher Nolan, geboren op 30 juli 1970 in Londen, is een regisseur die bekend staat om zijn diepgaande en intrigerende films. Zijn opvallende werken, zoals 'Memento', 'The Prestige' en 'Inception', hebben hem wereldwijde erkenning opgeleverd."
                 },
                 {
                     "title": "Origineel Idee",
-                    "description": "Voor dit filmaffiche heb ik ervoor gekozen om een scène te illustreren die geïnspireerd is op een memorabele sequentie uit Inception. In deze scène zie je een gebouw dat ronddraait, terwijl een personage naar beneden valt. Dit beeld van een eindeloze val heeft me geïnspireerd om een vergelijkbaar gevoel van surrealistische beweging te creëren voor het affiche.",
-                    "image": "images/original-idea.jpg"
+                    "description": "Voor dit filmaffiche heb ik ervoor gekozen om een scène te illustreren die geïnspireerd is op een memorabele sequentie uit Inception. In deze scène zie je een gebouw dat ronddraait, terwijl een personage naar beneden valt. Dit beeld van een eindeloze val heeft me geïnspireerd om een vergelijkbaar gevoel van surrealistische beweging te creëren voor het affiche."
                 },
                 {
                     "title": "Inhoud van de Affiche",
@@ -26,25 +23,25 @@
                 {
                     "title": "Stijl, Kleur, Typografie en Beweging",
                     "description": "Voor het filmaffiche heb ik gekozen voor een minimalistische stijl, die de essentie van Inception weerspiegelt. De kleurenpaletten die ik heb gebruikt zijn rechtstreeks geïnspireerd op de film zelf, met tonen zoals #DF2318, #085871, en #29414B. Wat betreft typografie, heb ik gekozen voor de font 'Gotham' in zowel light als bold varianten en 'Bebas Neue' voor de credits. De bewegingselementen zijn subtiel toegevoegd om de dynamiek van de droomwereld van Inception te versterken.",
-                    "image": "images/style-color.jpg"
+                    "image": "images/stijl-kleur.png"
                 },
                 {
                     "title": "Moodboard",
-                    "image": "images/moodboard.jpg"
+                    "image": "images/moodboard-inception.png"
                 },
                 {
                     "title": "Statische Ontwerpen",
                     "description": "Ontwerp 1: Een figuur die naar beneden valt, omringd door spiegels en zwevende betonnen muren. Ontwerp 2: Een object dat in de film wordt gebruikt om te controleren of iemand droomt. Het object draait continu om de droomstaat aan te geven. Ontwerp 3: Een wereld die ondersteboven wordt weergegeven, gecombineerd met een persoon die valt, wat een oneindige loop van vallen simuleert.",
-                    "image": "images/static-designs.jpg"
+                    "image": "images/lowfis.png"
                 },
                 {
                     "title": "Varianten Digitaal Ontwerp",
-                    "image": "images/digital_variations.jpg"
+                    "image": "images/midfis.png"
                 },
                 {
                     "title": "Digitaal Ontwerp",
                     "description": "Voor het digitaal ontwerp heb ik gekozen om verder te werken aan Ontwerp 3, vanwege de technische haalbaarheid met CSS en het interessante concept van een eindeloze val.",
-                    "image": "images/final_digital_design.jpg"
+                    "image": "images/endgame-poster.png"
                 },
                 {
                     "title": "HTML en CSS Conversie",
@@ -58,39 +55,30 @@
             "phases": [
                 {
                     "title": "Thema Research",
-                    "description": "Gothic Architectuur floreerde voornamelijk tijdens de middeleeuwen, van de 12e tot de 16e eeuw, en wordt gekenmerkt door zijn indrukwekkende elementen zoals spitsbogen, ribgewelven, luchtbogen en roosvensters.",
-                    "image": "images/gothic-research.jpg"
+                    "description": "Gothic Architectuur floreerde voornamelijk tijdens de middeleeuwen, van de 12e tot de 16e eeuw, en wordt gekenmerkt door zijn indrukwekkende elementen zoals spitsbogen, ribgewelven, luchtbogen en roosvensters."
                 },
                 {
                     "title": "Moodboard",
                     "description": "Mijn moodboard is samengesteld uit een verscheidenheid aan afbeeldingen die dienen als inspiratie voor mijn ontwerp binnen het thema Gothic Architectuur.",
-                    "image": "images/gothic-moodboard.jpg"
+                    "image": "images/moodboard-zen.png"
                 },
                 {
                     "title": "Stijl, Kleur, Typografie en Beweging",
                     "description": "Voor mijn CSS ZenGarden redesign heb ik ervoor gekozen om een minimalistische stijl te hanteren, die de essentie van de gotische architectuur weerspiegelt. De kleurenpaletten die ik heb gebruikt zijn geïnspireerd op de duistere, intrigerende sfeer van de gotiek.",
-                    "image": "images/style-color.jpg"
+                    "image": "images/stijl-kleuren.png"
                 },
                 {
                     "title": "Inspiratie beelden",
                     "description": "Gargoyle Foto's, grafstenen met tekst en foto's van de Notre Dame hebben bijgedragen aan het vormgeven van belangrijke componenten van mijn ontwerp.",
-                    "image": "images/inspiration-images.jpg"
+                    "image": "images/inspiratie.png"
                 },
                 {
                     "title": "Wireframes",
-                    "description": "Wireframes zijn gemaakt om de structuur en lay-out van de pagina te plannen voordat de definitieve ontwerpdetails werden toegevoegd.",
-                    "image": "images/wireframes.jpg"
+                    "description": "Wireframes zijn gemaakt om de structuur en lay-out van de pagina te plannen voordat de definitieve ontwerpdetails werden toegevoegd."
                 },
                 {
                     "title": "CSS Conversie",
-                    "description": "Ik ben begonnen met het instellen van de Notre Dame die ik heb ontworpen en getekend als achtergrond van de body in CSS. Dit zorgt voor een imposante en sfeervolle achtergrond die de gotische sfeer van mijn ontwerp benadrukt.",
-                    "image": "images/css-conversion.jpg"
-                },
-                {
-                    "title": "Github",
-                    "description": "Bekijk de volledige code op GitHub.",
-                    "image": "images/github.jpg",
-                    "link": "https://github.com/Bakbak24/zengarden_challenge"
+                    "description": "Ik ben begonnen met het instellen van de Notre Dame die ik heb ontworpen en getekend als achtergrond van de body in CSS. Dit zorgt voor een imposante en sfeervolle achtergrond die de gotische sfeer van mijn ontwerp benadrukt."
                 }
             ]
         }
