@@ -299,6 +299,15 @@ textarea {
     height: 789px;
 }
 
+#pro-img{
+margin-right: 13%;
+}
+@media only screen and (max-width:1170px){
+    #pro-img {
+        display: none;
+    }
+}
+
 #about-me #content {
     display: flex;
     flex-direction: row;
@@ -325,7 +334,7 @@ textarea {
     font-size: 1.2rem;
 }
 
-#about-me #profile-image {
+.profile-image {
     width: 404px;
     height: 451px;
     background: var(--white-color);
@@ -334,7 +343,7 @@ textarea {
     object-fit: cover;
 }
 
-#about-me #profile-image img {
+.profile-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -353,7 +362,7 @@ textarea {
         width: 75%;
     }
 
-    #about-me #profile-image {
+    #about-me .profile-image {
         margin-right: 90px;
     }
 }
@@ -372,7 +381,7 @@ textarea {
         margin-bottom: 20px;
     }
 
-    #about-me #profile-image {
+    #about-me .profile-image {
         width: 100%;
         max-width: 700px;
         margin-right: 0;
@@ -388,7 +397,6 @@ textarea {
     align-items: flex-start;
     margin-left: 120px;
     max-width: 100%;
-    /* Voorkomt horizontaal scrollen */
 }
 
 #welcoming-content span {
