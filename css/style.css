@@ -9,6 +9,7 @@
 
 html {
     font-size: var(--fs-normal);
+    overflow-x: hidden; /* Voorkomt horizontaal scrollen */
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     background-color: var(--tint-color);
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Voorkomt horizontaal scrollen */
 }
 
 header {
@@ -56,6 +57,8 @@ nav ul {
     align-items: center;
     list-style: none;
     gap: 32px;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -119,6 +122,7 @@ nav ul li:nth-child(1) a::after {
     justify-content: flex-start;
     align-items: center;
     background-color: var(--tint-color);
+    width: 100%; /* Voorkomt horizontaal scrollen */
 }
 
 #contact-form {
@@ -127,6 +131,7 @@ nav ul li:nth-child(1) a::after {
     align-items: center;
     background-color: var(--tint-color);
     height: 789px;
+    width: 100%; /* Voorkomt horizontaal scrollen */
 }
 
 form {
@@ -288,6 +293,7 @@ textarea {
     margin-left: 120px;
     margin-bottom: 112px;
     margin-top: 112px;
+    max-width: 100%; /* Voorkomt horizontaal scrollen */
 }
 
 #about-me #details {
@@ -365,6 +371,7 @@ textarea {
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 120px;
+    max-width: 100%; /* Voorkomt horizontaal scrollen */
 }
 
 #welcoming-content span {
