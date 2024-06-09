@@ -30,7 +30,6 @@ main h1 {
     height: 345px;
     border-radius: 16px;
     background: var(--white, #F1F1FB);
-    cursor: pointer;
 }
 
 main img {
