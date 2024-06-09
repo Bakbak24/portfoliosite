@@ -10,7 +10,6 @@
 html {
     font-size: var(--fs-normal);
     overflow-x: hidden;
-    /* Voorkomt horizontaal scrollen */
 }
 
 body {
@@ -22,7 +21,6 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    /* Voorkomt horizontaal scrollen */
 }
 
 header {
@@ -90,6 +88,22 @@ nav ul li:nth-child(1) a::after {
     margin-bottom: -2.5px;
 }
 
+#right #br-menu {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    background: var(--tint-color);
+    z-index: 1;
+    font-weight: 600;
+}
+
+#right #br-menu li {
+    text-align: center;
+    padding: 10px 0;
+}
+
 @media only screen and (max-width: 750px) {
 
     header {
@@ -105,12 +119,12 @@ nav ul li:nth-child(1) a::after {
     }
 
     #right {
-        width: 50%;
-        background-image: url(../images/br-menu.svg);
         width: 54px;
         height: 54px;
         flex-shrink: 0;
         cursor: pointer;
+        background-image: url('../images/br-menu.svg');
+        background-repeat: no-repeat;
     }
 
     #welcoming-content {
@@ -125,7 +139,6 @@ nav ul li:nth-child(1) a::after {
     align-items: center;
     background-color: var(--tint-color);
     width: 100%;
-    /* Voorkomt horizontaal scrollen */
 }
 
 #contact-form {
@@ -135,7 +148,6 @@ nav ul li:nth-child(1) a::after {
     background-color: var(--tint-color);
     height: 789px;
     width: 100%;
-    /* Voorkomt horizontaal scrollen */
 }
 
 form {
@@ -298,7 +310,6 @@ textarea {
     margin-bottom: 112px;
     margin-top: 112px;
     max-width: 100%;
-    /* Voorkomt horizontaal scrollen */
 }
 
 #about-me #details {
@@ -504,13 +515,13 @@ button {
     width: 80%;
 }
 
-@media only screen and (max-width:440px){
+@media only screen and (max-width:440px) {
     .service {
         width: 350px;
     }
 }
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:380px) {
 
     .service {
         width: 300px;
@@ -521,13 +532,13 @@ button {
         height: 90%;
         object-fit: cover;
     }
-    
+
     .service:last-of-type .service-img img {
         width: 60%;
         height: 92%;
         object-fit: cover;
     }
-    
+
 }
 
 #experience {
@@ -579,7 +590,7 @@ button {
     border-radius: 16px;
 }
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:380px) {
     .project-done {
         width: 318px;
         height: 360px;
