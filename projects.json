@@ -74,7 +74,8 @@
                 },
                 {
                     "title": "Wireframes",
-                    "description": "Wireframes zijn gemaakt om de structuur en lay-out van de pagina te plannen voordat de definitieve ontwerpdetails werden toegevoegd."
+                    "description": "Wireframes zijn gemaakt om de structuur en lay-out van de pagina te plannen voordat de definitieve ontwerpdetails werden toegevoegd.",
+                    "image": "images/wireframes.png"
                 },
                 {
                     "title": "CSS Conversie",
